@@ -1,0 +1,14 @@
+External data that I haven't edited, like original datasets I collected, got from collaborators, or downloaded. 
+
+
+Nucelotide sequence information for designing constructs in D. pseudoobscura (assembly UCI_Dpse_MV25) and D. americana (assembly ASM1815291v1).
+
+IDT primers were used for PCR, sequencing and cloning. LIST PRIMERS USED
+
+Donor plasmids for the 3xP3-DsRed and 3xP3-YFP bam distruption lines using the NEB HiFi Assembly Cloning kit into the pHD-attP-DsRed vector from flyCRISPR. 3xP3-DsRed was amplified from the pHD-attP-DsRed plasmid and YFP was amplified from the D. simulans nos-Cas9 line, a gift from David Stern. 
+
+Plasmid sequences were confirmed with sequencing (Plasmidsaurus).
+
+gRNAs without off target effects have been chosen and 1-3 gRNAs will be used per injection to increase the chances of a successful CRISPR event. LIST GRNAS USED
+
+Injections will be carried out by Genetivision and I will then screen resultant bam disruption lines for eye color.

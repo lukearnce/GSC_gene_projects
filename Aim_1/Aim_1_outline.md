@@ -1,0 +1,105 @@
+Aim_1\_outline
+================
+
+# Aim 1: Assess the role of bam in GSC differentiation in D. pseudoobscura and D. americana
+
+**Rationale:** Recently generated bam nulls in D. melanogaster, D.
+simulans, and D. yakuba demonstrate bam is necessary for male and female
+germline stem cell differentiation and fertility in those species. D.
+ananassae male and D. teissieri male and female bam nulls demonstrate
+bam is unnecessary for GSC differentiation and fertility (Fig. 1).
+Recent results also indicate bursts of positive selection at bam within
+the D. melanogaster species group, including in D. melanogaster, D.
+simulans, D. yakuba, and D. santomea. D. teissieri did not show evidence
+of positive selection. These findings prompt more direct evaluation of
+the evolutionary origin of bam’s essential GSC role and whether the
+evolution of new bam functions could contribute to the bursts of
+positive selection in the aforementioned species.
+
+To interrogate these topics, I will generate bam null alleles in D.
+pseudoobscura and D. americana. These species represent major, more
+divergent outgroups to the D. melanogaster species group within the
+Drosophila genus and have been successfully edited with CRISPR/Cas9
+(20,21). Creating these nulls will add broader evolutionary scope to our
+current array of generated bam nulls. Results from cytological and
+fertility assays will help evaluate whether bam’s essential role in GSC
+differentiation is basal to all Drosophila species and lost in specific
+lineages or whether bam’s critical role is a gained function within the
+D. melanogaster species group. Resultant null phenotypes will also
+provide a broader context for understanding the relationship between bam
+function and positive selection.
+
+**A:** Generate bam nulls in D. pseudoobscura and D. americana
+
+**Null hypothesis:** D. pseudoobscura and D. americana null mutants will
+both display wildtype phenotypes
+
+**Methodology:** I will use CRISPR/Cas9 to introduce a 3xP3-YFP or a
+3xP3-DsRed gene cassette into the first exon of bam in D. pseudoobscura
+and D. americana, thereby disrupting the bam coding sequence and
+introducing a premature termination codon. I chose this method instead
+of a full deletion of bam due to past success using this strategy (60)
+and concerns that large deletions might disrupt regulation of adjacent
+genes. Bam does share a 3’ UTR with an adjacent gene. This will generate
+an allele that is trackable by eye color, which is necessary for
+non-melanogaster species since balancer chromosomes to maintain alleles
+that cause sterility are unavailable in these non- melanogaster species.
+I will cross the 3xP3-YFP line to the 3xP3-DsRed line and select flies
+with both DsRed and YFP positive eyes. This scheme also allows us to use
+the same cross to assay the heterozygous and wildtype bam siblings.
+
+So far, I have used the NCBI database to obtain nucelotide sequence
+information for designing constructs in D. pseudoobscura (assembly
+UCI_Dpse_MV25) and D. americana (assembly ASM1815291v1). I used geneious
+for all cloning design. I used the NEB Q5 High Fidelity 2X master mix to
+generate PCR products. Then I gel extracted and purified PCR products
+using the NEB Monarch DNA gel extraction kit. IDT primers were used for
+PCR, sequencing and cloning. I generated donor plasmids for the
+3xP3-DsRed and 3xP3-YFP bam distruption lines using the NEB HiFi
+Assembly Cloning kit into the pHD-attP-DsRed vector from flyCRISPR
+(Gratz et al. 2014) as follows: I amplifed 1.5 kb homology arms from
+genomic DNA of the appropriate species stock flanking the insertion site
+for 3xP3-DsRed or 3xP3-YFP. 3xP3-DsRed was amplified from the
+pHD-attP-DsRed plasmid and YFP was amplified from the D. simulans
+nos-Cas9 line, a gift from David Stern. I then gel extracted the two
+homology arms and the appropriate 3xP3 marker, purified them, and
+assembled them into the pHD vector backbone using the manufacturer’s
+protocol. Next, I prepped and purified plasmids for embryo injections
+with Qiagen plasmid plus midi-prep kit. Plasmid sequences were confirmed
+with sequencing (Plasmidsaurus). This cloning procedure has been
+completed for all necessary D. pseudoobscura plasmids, and is ongoing
+for D. americana plasmids. gRNAs without off target effects have been
+chosen and 1-3 gRNAs will be used per injection to increase the chances
+of a successful CRISPR event. Injections will be carried out by
+Genetivision and I will then screen resultant bam disruption lines for
+eye color. Mutants will be backcrossed to the stock lines for three
+generations and all mutants will be maintained as heterozygous stock. I
+will confirm all CRISPR insertions by Sanger sequencing. I expect the
+introduced bam disruption cassettes will trigger nonsense mediated mRNA
+decay (NMD) resulting in a loss of function allele (66). Since the only
+available bam antibody is weakly cross-reactive in D. melanogaster and
+D. simulans, I cannot directly demonstrate the absence of bam protein in
+the tested species. I will use RT-qPCR to determine whether the
+3xP3-DsRed and 3xP3 YFP alleles are expressed in lower levels consistent
+with NMD in comparison to wildtype bam alleles. I will select DsRed and
+YFP positive flies and cross them to generate homozygous bam disruption
+flies which I will evaluate for GSC differentiation and fertility
+defects using immunostaining of ovaries and testes and fertility assays
+as done in previous bam null evaluations (67).
+
+**Expected outcomes and interpretations:** If D. pseudoobscura and D.
+americana homozygous null mutants have wildtype bam phenotypes, failing
+to reject the null hypothesis, this would provide evidence that bam’s
+known D. melanogaster GSC function is novel to the D. melanogaster
+species group. If the homozygous null mutants exhibit GSC daughter
+differentiation defects in one or both species, I will conclude that
+bam’s critical GSC function is not novel to the D. melanogaster species
+group, and its evolutionary origin occurred prior to the group’s
+formation.
+
+**Caveats and future directions:** If I am unsuccessful in generating
+nulls using the bam disruption strategy, I will generate null deletion
+lines using the methodology outlined in Kanca et. al (24). A potentially
+interesting future direction would be to generate nulls in more distant
+species that signal selection at bam, like D. rubida, and repeat the
+same assessments of fertility and cytology (67).

@@ -1,0 +1,5 @@
+Output results from your analysis, like model summary files, tables etc.
+
+MK test results from polymorphism data using codeml from PAML and PRANK evaluating for signals of positive selection.
+
+PAML analysis results evaluating for signals of positive selection.

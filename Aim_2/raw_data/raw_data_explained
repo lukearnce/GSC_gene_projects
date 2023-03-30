@@ -1,0 +1,9 @@
+External data that I haven't edited, like original datasets I collected, got from collaborators, or downloaded. 
+
+Ensembl compara predicted GSC gene orthology (10 Drosophila and 2 outgroup species)
+
+CDS downloaded for 41 species total
+
+RBH BLAST from INPARANOID used to refine ortholog predictions along with PRANK and maxAlign.
+
+Primers for validation of predicted absences
